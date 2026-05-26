@@ -1,11 +1,43 @@
-<script setup></script>
-
 <template>
-  <h1>You did it!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+  <div>
+  <h1>Buscar Usuarios GitHub</h1>
+  <GitHub/>
+  </div>
 </template>
 
-<style scoped></style>
+<script>
+import GitHub from "./components/GitHub.vue"
+export default
+{
+  components: 
+  {
+    GitHub
+  }
+}
+</script>
+<style scoped>
+div {
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+}
+
+label {
+
+    font-size: 25px;
+
+    margin-bottom: 10px;
+}
+
+input {
+
+    font-size: 20px;
+
+    width: 300px;
+
+    padding: 10px;
+}
+</style>
