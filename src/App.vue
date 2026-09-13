@@ -7,10 +7,8 @@
 
 <script>
 import GitHub from "./components/GitHub.vue"
-export default
-{
-  components: 
-  {
+export default{
+  components:{
     GitHub
   }
 }
