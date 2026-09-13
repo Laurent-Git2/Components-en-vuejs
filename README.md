@@ -1,3 +1,62 @@
+# GitHub Viewer · Vue 3
+
+Aplicación frontend desarrollada durante mi formación en DAW para buscar usuarios de GitHub y consultar sus repositorios públicos mediante la API de GitHub.
+
+## Funcionalidades
+
+- Búsqueda de usuarios al pulsar Enter.
+- Visualización del nombre de usuario y su avatar.
+- Enlace al perfil de GitHub.
+- Consulta de repositorios mediante el botón «Repositorios».
+- Enlaces a los repositorios mostrados.
+- Mensaje de error cuando la consulta del usuario no devuelve una respuesta válida.
+
+## Tecnologías
+
+Vue 3 · JavaScript · API REST · Fetch · Vite · HTML5 · CSS3
+
+## Aprendizaje
+
+Práctica de componentes con Vue y Options API, datos reactivos,
+v-model, eventos, renderizado condicional con v-if y listas con v-for.
+
+Incluye peticiones asíncronas mediante fetch y async/await.
+
+## Capturas
+
+### Búsqueda y perfil
+![Perfil de un usuario](docs/Imagenes/BuscarUsuariosGitHub.png)
+
+### Repositorios públicos
+![Listado de repositorios](docs/Imagenes/Repositorios.png)
+
+## Ejecución local
+
+Con Node.js y npm instalados, abrir un terminal en la carpeta
+que contiene package.json y ejecutar:
+
+```bash
+npm install
+npm run dev
+```
+
+Abrir la dirección local indicada en el terminal.
+
+## Próximas mejoras
+
+- Mejorar el diseño y la adaptación a móviles.
+- Gestionar los errores de conexión y de consulta de repositorios.
+- Añadir un indicador visual de carga.
+- Incorporar paginación para consultar más repositorios.
+
+## Autor
+
+Laurent Sontag  
+Estudiante de DAW · IES Mare Nostrum
+
+[Perfil de GitHub](https://github.com/Laurent-Git2)
+
+
 # .
 
 This template should help get you started developing with Vue 3 in Vite.
